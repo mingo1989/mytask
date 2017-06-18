@@ -1,0 +1,9 @@
+.box{float:left;
+    width:30%;
+    border:solid transparent 1px;
+    border-radius:5%;
+    padding-bottom:30%;
+    background:#fea500;
+    margin:1%
+
+}
