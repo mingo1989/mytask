@@ -1,0 +1,97 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    width:100%;
+    background: #68cdd5;
+    height:100%;
+    margin:0;
+    font-size: 62.5%;
+}
+.back {
+    background-image:url(./images/back.png);
+    width: 5.4rem;
+    height:5.4rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:2rem;
+    left:3.5rem;
+
+}
+.logo {
+    width:6.7rem;
+    height:7rem;
+    background-image: url("./images/logo.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.footerleft {
+    background-image: url("./images/footerleft.png");
+    width:8.4rem;
+    height:8.4rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    left:21%;
+
+}
+.footerright {
+    background-image: url("./images/footerright.png");
+    width:8.4rem;
+    height:8.4rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    right:21%;
+}
+.text {
+    color:white;
+    font-size: 3rem;
+    line-height: 5.4rem;
+    position:absolute;
+    top:30rem;
+    left:13%;
+    right:13%;
+}
+.putaoteng {
+    color: white;
+    font-size: 4.5rem;
+    display: inline-block;
+    position: relative;
+    top:-1.8rem;
+}
+.website {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    position:absolute;
+    left:0.7rem;
+    top:5rem;
+}
+.textleft {
+    color: white;
+    font-size: 2.4rem;
+    display: inline-block;
+    position: absolute;
+    top:10.5rem;
+    left:19%;
+}
+.textright {
+    color: white;
+    font-size: 2.4rem;
+    display: inline-block;
+    position: absolute;
+    top:10.5rem;
+    right:19%;
+}
+.logobox {
+    width:100%;
+    position:absolute;
+    top:12.6rem;
+    text-align: center;
+}
+.footer {
+    position:relative;
+    top:69rem;
+    padding-bottom: 19.5rem;
+}
