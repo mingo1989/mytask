@@ -1,18 +1,33 @@
-html {
-    font-size: 62.5%;
+@media only screen and (min-width:767px)
+{
+    html {
+        font-size:14px !important;
+    }
+}
+@media only screen and (min-width:640px)
+{
+    html {
+        font-size:10px !important;
+    }
+}
+@media only screen and (min-width:0px)
+{
+    html {
+        font-size:6px !important;
+    }
 }
 body {
     width:100%;
     background: #68cdd5;
     height:100%;
     margin:0;
-    font-size: 62.5%;
 }
 .back {
     background-image:url(./images/back.png);
     width: 5.4rem;
     height:5.4rem;
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top:2rem;
     left:3.5rem;
@@ -23,6 +38,7 @@ body {
     height:7rem;
     background-image: url("./images/logo.png");
     background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
 }
 .footerleft {
@@ -30,6 +46,7 @@ body {
     width:8.4rem;
     height:8.4rem;
     background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
     position: absolute;
     left:21%;
@@ -37,6 +54,7 @@ body {
 }
 .footerright {
     background-image: url("./images/footerright.png");
+    background-size: cover;
     width:8.4rem;
     height:8.4rem;
     background-repeat: no-repeat;
@@ -60,21 +78,13 @@ body {
     position: relative;
     top:-1.8rem;
 }
-.website {
-    color: white;
-    font-size: 1.5rem;
-    display: inline-block;
-    position:absolute;
-    left:0.7rem;
-    top:5rem;
-}
 .textleft {
     color: white;
     font-size: 2.4rem;
     display: inline-block;
     position: absolute;
     top:10.5rem;
-    left:19%;
+    left:21%;
 }
 .textright {
     color: white;
@@ -82,7 +92,7 @@ body {
     display: inline-block;
     position: absolute;
     top:10.5rem;
-    right:19%;
+    right:21%;
 }
 .logobox {
     width:100%;
