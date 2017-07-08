@@ -1,19 +1,19 @@
-@media only screen and (min-width:767px)
-{
-    html {
-        font-size:14px !important;
-    }
-}
 @media only screen and (min-width:640px)
 {
     html {
-        font-size:10px !important;
+        font-size:10px
     }
 }
-@media only screen and (min-width:0px)
+@media only screen and (min-width:412px) and (max-width: 640px)
 {
     html {
-        font-size:6px !important;
+        font-size:8px
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 412px)
+{
+    html {
+        font-size:5px
     }
 }
 body {
@@ -21,6 +21,9 @@ body {
     background: #68cdd5;
     height:100%;
     margin:0;
+}
+image {
+    max-width: 100%;
 }
 .back {
     background-image:url(./images/back.png);
@@ -84,7 +87,7 @@ body {
     display: inline-block;
     position: absolute;
     top:10.5rem;
-    left:21%;
+    left:20%;
 }
 .textright {
     color: white;
@@ -92,7 +95,7 @@ body {
     display: inline-block;
     position: absolute;
     top:10.5rem;
-    right:21%;
+    right:20%;
 }
 .logobox {
     width:100%;
