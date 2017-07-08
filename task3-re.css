@@ -1,110 +1,70 @@
-@media only screen and (min-width:640px)
-{
-    html {
-        font-size:10px
-    }
-}
-@media only screen and (min-width:412px) and (max-width: 640px)
-{
-    html {
-        font-size:8px
-    }
-}
-@media only screen and (min-width:0px) and (max-width: 412px)
-{
-    html {
-        font-size:5px
-    }
+html {
+ font-size: 10px;
 }
 body {
-    width:100%;
     background: #68cdd5;
-    height:100%;
-    margin:0;
-}
-image {
-    max-width: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
 }
 .back {
-    background-image:url(./images/back.png);
-    width: 5.4rem;
-    height:5.4rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top:2rem;
-    left:3.5rem;
-
-}
-.logo {
-    width:6.7rem;
-    height:7rem;
-    background-image: url("./images/logo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-}
-.footerleft {
-    background-image: url("./images/footerleft.png");
-    width:8.4rem;
-    height:8.4rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    position: absolute;
-    left:21%;
-
-}
-.footerright {
-    background-image: url("./images/footerright.png");
-    background-size: cover;
-    width:8.4rem;
-    height:8.4rem;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: absolute;
-    right:21%;
-}
-.text {
-    color:white;
-    font-size: 3rem;
-    line-height: 5.4rem;
-    position:absolute;
-    top:30rem;
-    left:13%;
-    right:13%;
+    margin: 2rem 0 0 3.5rem;
 }
 .putaoteng {
+    font-size: 3.5rem;
     color: white;
-    font-size: 4.5rem;
-    display: inline-block;
-    position: relative;
-    top:-1.8rem;
 }
-.textleft {
+.website {
+    font-size: 1rem;
     color: white;
-    font-size: 2.4rem;
-    display: inline-block;
-    position: absolute;
-    top:10.5rem;
-    left:20%;
 }
-.textright {
-    color: white;
-    font-size: 2.4rem;
+.textbox {
     display: inline-block;
-    position: absolute;
-    top:10.5rem;
-    right:20%;
+    text-align: center;
+    padding: 0;
 }
 .logobox {
+    margin:3rem 0 0 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.text {
+    font-size: 3rem;
+    line-height: 5.4rem;
+    width:70%;
+    margin: 11.2rem 15% 16.5rem 15%;
+    color: white;
+
+}
+.lt {
+    color: white;
+    font-size: 2.4rem;
     width:100%;
-    position:absolute;
-    top:12.6rem;
+    padding:1rem 0 0 0;
+    margin: 0;
+    text-align: center;
+}
+.rt {
+    color: white;
+    font-size: 2.4rem;
+    width:100%;
+    padding:1rem 0 0 0;
+    margin: 0;
+    text-align: center;
+}
+.lf {
+    width:50%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    float:left;
+}
+.rf {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
     text-align: center;
 }
 .footer {
-    position:relative;
-    top:69rem;
-    padding-bottom: 19.5rem;
+    width:100%;
 }
