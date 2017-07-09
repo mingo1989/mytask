@@ -34,6 +34,7 @@ body {
     width:70%;
     margin: 11.2rem 15% 16.5rem 15%;
     color: white;
+    text-align: center;
 
 }
 .lt {
@@ -67,4 +68,5 @@ body {
 }
 .footer {
     width:100%;
+    margin-bottom: 18rem;
 }
