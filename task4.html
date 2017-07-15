@@ -7,24 +7,31 @@
     <title>task4</title>
 </head>
 <body>
-    <div class="header">
-        <div class="guanbi">关闭</div>
-        <div class="denglu">登陆</div>
-        <div class="zhuce">注册</div>
+    <header>
+        <span class="guanbi">关闭</span>
+        <span>登陆</span>
+        <span class="zhuce">注册</span>
+    </header>
+    <!--号码输入框-->
+    <div class="inputbox">
+        <img src="images/tel.png" width="27" height="41"/>
+        <p class="inputbox1">
+            <input type="tel" name="tel" placeholder="请输入电话号码"/>
+        </p>
     </div>
-    <div class="input-box">
-        <div class="box">
-            <img src="./images/tel.png" width="27" height="41" />
-        </div>
-        <input type="text" class="input-control" placeholder="请输入手机号码"/>
+    <!--密码输入框-->
+    <div class="inputbox">
+        <img src="images/code.png" width="29" height="43"/>
+        <p class="inputbox1">
+        <input type="password" name="pwd" placeholder="请输入密码"/>
+        </p>
     </div>
-    <div class="input-box">
-        <div class="box">
-            <img src="./images/code.png" width="29" height="43"/>
-        </div>
-        <input type="password" class="input-control" placeholder="请输入密码"/>
-    </div>
-    <div class="bt">登陆</div>
-    <p class="fd-code">忘记密码？</p>
+    <!--按钮-->
+        <form action="/images/index.asp" method="get">
+        <input type="submit" name="submit" value="登陆"/>
+        </form>
+    <p class="fogcode">
+        忘记密码？
+    </p>
 </body>
 </html>
