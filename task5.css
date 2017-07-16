@@ -1,0 +1,133 @@
+html {
+    font-size: 10px;
+}
+body {
+    background: white;
+    width:100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+header {
+    width:100%;
+    height:8.5rem;
+    background:#5fc0cd;
+    text-align: center;
+    line-height: 8.5rem;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+header span {
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+.back {
+    position:absolute;
+    left: 2rem;
+    font-size: 5rem;
+}
+/*个人信息栏*/
+nav {
+    width:100%;
+    height:32.7rem;
+    margin:8.5rem 0 0 0;
+    background-image: url("./images/wall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.photo {
+    position: absolute;
+    top: 12.5rem;
+    left: 3rem;
+}
+nav p {
+    position: absolute;
+    top: 12rem;
+    left: 15.5rem;
+    line-height: 4rem;
+}
+nav span {
+    color: #ffffff;
+}
+.d1 {
+    font-size: 2.8rem;
+    padding-right: 1.5rem;
+}
+.d2 {
+    font-size: 2.4rem;
+}
+.d3 {
+    padding-left: 1.5rem;
+    font-size: 1.8rem;
+}
+/*列表栏*/
+.t1 {
+    font-size: 2.4rem;
+    display: inline;
+    margin-left:0;
+    border:none;
+    line-height: 2.4rem;
+}
+article {
+    line-height: 7.6rem;
+    padding-bottom: 10rem;
+}
+article div {
+    width:95%;
+    min-height:10rem;
+    border-bottom:solid 0.1rem #e1e5e7;
+    margin-left: 5%;
+}
+article p {
+    font-size: 2.4rem;
+    color: #999999;
+}
+article span {
+    color: black;
+    border-left: solid 1px #e1e5e7;
+    padding-left: 2.5rem;
+    margin-left:  2.5rem;
+    font-size: 2.4rem;
+}
+article strong {
+    color: red;
+    border-left: solid 1px #e1e5e7;
+    padding-left: 2.5rem;
+    margin-left:  2.5rem;
+}
+.intro {
+    font-size: 2rem;
+    line-height: 3rem;
+    min-height: 2rem;
+}
+/*footer*/
+footer {
+    width:100%;
+    height:8.5rem;
+    padding-bottom: 4rem;
+    z-index: 2;
+    background: white;
+    position: fixed;
+    bottom: 0;
+}
+footer input {
+    width: 40%;
+    height: 70%;
+    border-radius: 1rem;
+    border: 0.2rem #5fc0cd solid;
+    font-size: 2.8rem;
+}
+footer .button1 {
+    background: none;
+    color: #5fc0cd;
+    margin-left: 7%;
+    margin-right:3%;
+}
+footer .button2 {
+    background: #5fc0cd;
+    color: white;
+    margin-left: 3%;
+}
